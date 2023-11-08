@@ -1,0 +1,4 @@
+.env
+notion-pages
+node_modules
+build

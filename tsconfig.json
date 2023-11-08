@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es2021",                                /* Specify ECMAScript target version */
+    "module": "commonjs",                           /* Specify module code generation */
+    "outDir": "./build",                           /* Specify an output folder for all emitted files */
+    "rootDir": "./src",                             /* Specify the root folder within your source files */
+    "strict": true,                                 /* Enable all strict type-checking options */
+    "esModuleInterop": true,                        /* Enable compatibility with Babel/TypeScript default import behavior */
+    "skipLibCheck": true,                           /* Skip type checking for all the library files (.d.ts) */
+    "forceConsistentCasingInFileNames": true        /* Disallow inconsistently-cased references to the same file */
+
+    /* Additional options not listed here */
+  },
+  "include": ["src/**/*"],                          /* Include all files in the src directory */
+  "exclude": ["node_modules", "**/*.spec.ts"]       /* Exclude node_modules and test files */
+}
